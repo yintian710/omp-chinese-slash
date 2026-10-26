@@ -1,0 +1,11 @@
+{
+  "name": "omp-chinese-slash",
+  "version": "0.1.0",
+  "description": "Convert a leading 、 to / in real time in the omp composer; preserve punctuation elsewhere",
+  "type": "module",
+  "files": ["index.ts"],
+  "keywords": ["omp", "omp-plugin", "ime", "chinese"],
+  "omp": {
+    "extensions": ["./index.ts"]
+  }
+}
